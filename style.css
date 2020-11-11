@@ -1,0 +1,95 @@
+.navbar {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #342b60;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    text-decoration: none !important;
+    color: #ffffff;
+}
+
+body{
+    background-color: rgb(240, 243, 245);
+}
+
+div {
+    width: 90%;
+    margin:auto auto auto auto;
+}
+
+/* .table-div {
+    border: 1px solid red !important;
+    margin-top: 30px;
+} */
+
+.form-div {
+    margin-top: 30px;
+    width: 60%;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.add-book-div {
+    margin-top: 60px;
+}
+
+form {
+    height: 300px;
+    /* border: 1px solid green; */
+}
+
+.form-div tr td:first-child {
+    width: 20%;
+    /* border: 1px solid red; */
+}
+
+.submit-button {
+    width: 150px;
+    border: none;
+    background-image: linear-gradient(90deg, #342b60 35%, #e4067e 100%);
+    box-shadow: 0 4px 4px rgba(0,0,0,.08);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.btn-position-div {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #342b60;
+    color: #ffffff;
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 18px;
+    left: 5%;
+    right: 5%;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* td a {
+    text-decoration: none !important;
+} */
